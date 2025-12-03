@@ -60,7 +60,7 @@ Para rodar o projeto localmente, siga os passos abaixo:
    ```bash
    git clone [https://github.com/saulobbarbosa/unisin-repo.git](https://github.com/saulobbarbosa/unisin-repo.git)
    cd unisin-repo
-````
+   ```
 
 3.  **Configuração do Backend (Laravel):**
       - Crie o arquivo de variáveis de ambiente: `cp backend/.env.example backend/.env`
