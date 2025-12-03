@@ -1,0 +1,22 @@
+.divBarraTop{
+    width: 50rem;
+    height: 7rem;
+    background-color: #64B5F6;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.nome{
+    color: #fff;
+    padding: 1.75rem 0rem;
+    cursor: pointer;
+}
+
+.lv{
+    width: 100%;
+    text-align: right;
+    padding: 1rem;
+    color: #295384;
+}

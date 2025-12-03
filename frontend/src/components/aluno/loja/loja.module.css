@@ -1,0 +1,87 @@
+.divTituloTop{
+    text-align: center;
+    color: #fff;
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+.divContainerBloco {
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.navbarTop {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: #fff;
+    font-size: 1.5rem;
+    transition: 0.2s;
+}
+.navbarTop i:hover{
+    transform: scale(1.2);
+    text-shadow: 0 0 8px #00eaff;
+    cursor: pointer;
+}
+.linhaNav{
+    flex: 1;
+    height: 0.2rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 1rem;
+}
+
+.carrosselItens {
+    user-select: none;
+    display: flex;
+    overflow-x: auto;
+    gap: 4rem;
+    padding: 1.5rem 2rem;
+    margin-left: -2rem;
+}
+.carrosselItens::-webkit-scrollbar {
+    display: none;
+}
+
+.cardItem {
+    background-color: #fff;
+    border: 2px solid #00eaff;
+    border-radius: 1rem;
+    box-shadow: 0 0 12px rgba(0, 234, 255, 0.3);
+    color: #000;
+    text-align: center;
+    padding: 1rem;
+    transition: 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 10rem;
+    cursor: pointer;
+}
+.cardItem:hover {
+    transform: translateY(-5px) scale(1.05);
+    box-shadow: 0 0 13px #00eaff;
+}
+
+.preview {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+}
+
+.divPreco {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+.imgMoeda{
+    width: 2rem;
+}
+
+.itemApagado {
+    opacity: 0.35;        /* Fica apagado */
+    filter: grayscale(100%); /* Preto e branco opcional */
+    pointer-events: none;  /* Desativa clique */
+    transition: 0.3s ease;
+}

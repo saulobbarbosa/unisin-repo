@@ -1,0 +1,65 @@
+.divTopTitulo {
+    width: 70%;
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background-color: #4572EF;
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+.btnSair {
+    position: absolute;
+    right: 3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #2F5DCF;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.btnSair:hover{
+    transform: translateY(-50%) scale(1.05);
+    box-shadow: 0 0 20px rgba(100, 181, 246, 0.8);
+}
+
+/* Parte Principal da Tela */
+.divPrincipal{
+    width: 70%;
+    height: 70vh;
+    background-color: #fff;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divCardsVS{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.versus{
+    color: #3A7BFD;
+    font-size: 7rem;
+}
+
+.btnComeçar{
+    padding: 1.2rem 5rem;
+    background-color: #2F5DCF;
+    color: #fff;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+.btnComeçar:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 20px rgba(100, 181, 246, 0.8);
+}

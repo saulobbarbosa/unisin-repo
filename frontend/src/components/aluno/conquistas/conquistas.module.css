@@ -1,0 +1,98 @@
+.divTitulo{
+    width: 68%;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2rem;
+}
+
+.tituloTop{
+    font-size: 3.5rem;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+.gridConquista{
+    display: grid;
+    grid-template-columns: minmax(60%, 1fr) 15% 25%;
+    gap: 1rem;
+    align-items: center;
+    width: 70%;
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 2rem 2rem 0 0;
+    padding: 1rem;
+    height: auto;
+    min-height: 61vh;
+    font-size: 1.8rem;
+    user-select: none;
+}
+.gridConquista > div:first-child,
+.gridConquista > div:nth-child(3n+1)  {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.textoTopoTabela{
+    font-weight: bold;
+    color: #295384;
+    text-align: center;
+}
+
+.ajusteRecompensa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destaqueRecMoeda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13.125rem;
+    height: 2.875rem;
+    border-radius: 1.25rem;
+    background-color: #64B5F6;
+    color: #fff;
+    font-weight: bold;
+}
+.img{
+    width: 3.125rem;
+    border-radius: 100%;
+}
+
+.previewBorda {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100%;
+    background-color: #fff;
+    margin: 0 auto;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.previewBorda:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.previewFundo {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 0.8rem;
+    margin: 0 auto;
+    transition: transform 0.2s ease;
+}
+.previewFundo:hover {
+    transform: scale(1.05);
+}
+
+.previewAvatar {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+    transition: transform 0.2s ease;
+}
+.previewAvatar:hover {
+    transform: scale(1.05);
+}

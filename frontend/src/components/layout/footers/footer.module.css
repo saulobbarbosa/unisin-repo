@@ -1,0 +1,21 @@
+ul{
+    list-style: none;
+}
+li{
+    margin: 2rem 0;
+}
+
+.containerFooter{
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+    color: #fff;
+}
+
+.tituloFooter{
+    margin-top: 2rem;
+}
+
+.tituloFatec{
+    margin-top: 8rem;
+}

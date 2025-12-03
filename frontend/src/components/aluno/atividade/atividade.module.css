@@ -1,0 +1,49 @@
+.divAtividade {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    color: #fff;
+}
+
+.generalizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.divPergunta {
+    width: 50rem;
+    min-height: 10rem;
+    background: linear-gradient(145deg, #1d304a, #253b5c);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+    font-size: 1.6rem;
+    text-align: center;
+    padding: 2rem;
+}
+
+.ajusteDivResposta {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}   
+
+.divResposta {
+    width: 25rem;
+    height: 10rem;
+    background: linear-gradient(145deg, #122034, #182b42);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.divResposta:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(145deg, #1a4577, #123055);
+    color: #fff;
+}

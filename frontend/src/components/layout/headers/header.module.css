@@ -1,0 +1,132 @@
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.headerContainer{
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 10;
+    display: flex;
+    width: 100vw;
+    background-color: #141531;
+    user-select: none;
+    box-shadow: 0px 2px 4px rgb(255, 255, 255, 0.1);
+    color: #fff;
+}
+
+.logo{
+    width: 6rem;
+    margin: 1rem 1rem 1rem 3rem;
+}
+
+.headerMenu{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.opcoes{
+    cursor: pointer;
+    margin: 0rem 2rem;
+}
+
+.btnLogar{
+    cursor: pointer;
+    color: #295384;
+    font-size: large;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 2rem;
+    margin-right: 3rem;
+}
+.btnLogar:hover{
+    background-color: #295384;
+    color: #fff;
+    transition: 0.8s;
+}
+
+/* Estilo do Header Aluno */
+.divNMP{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13.125rem;
+    height: 2.875rem;
+    margin: 0 1rem;
+    border-radius: 1.25rem;
+    background-color: #fff;
+    color: #000;
+    font-size: 2.25rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.imgMoeda{
+    width: 3.125rem;
+}
+
+.divPerfil{
+    justify-content: center !important;
+    width: 3.5rem !important;
+    height: 3.5rem !important;
+    border-radius: 100% !important;
+    cursor: pointer;
+}
+
+.imgPerfil{
+    width: 3.6rem !important;
+    height: 3.6rem !important;
+    border-radius: 100%;
+}
+
+/* Estilo do Modal de Navegação do Aluno */
+.divModalNavegacao {
+    width: 21.875rem;
+    overflow: hidden;
+    position: fixed;
+    top: 8rem;
+    right: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0px 4px 12px rgba(0,0,0,0.2);
+    transform-origin: top;
+    transform: scaleY(0);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.show {
+    transform: scaleY(1);
+    opacity: 1;
+}
+
+.hide {
+    transform: scaleY(0);
+    opacity: 0;
+}
+
+.divEscolhas {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+    cursor: pointer;
+}
+.divEscolhas:hover {
+    background-color: #818181;
+}
+
+.textEscolhas {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #000;
+}
+
+.linhaModal {
+    height: 1px;
+    background-color: #ddd;
+    border: none;
+}

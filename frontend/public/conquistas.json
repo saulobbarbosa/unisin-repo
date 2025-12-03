@@ -1,0 +1,71 @@
+[
+  {
+    "id": 1,
+    "descricao": "Complete 5 atividades com sucesso",
+    "qtdAtual": 2,
+    "qtdCompleta": 5,
+    "recompensa": {
+      "tipo": "moedas",
+      "valor": 1000
+    }
+  },
+  {
+    "id": 2,
+    "descricao": "Acesse o sistema por 7 dias consecutivos",
+    "qtdAtual": 7,
+    "qtdCompleta": 7,
+    "recompensa": {
+      "tipo": "cosmetico",
+      "categoria": "bordas",
+      "idItem": 1, 
+      "nome": "Borda Vermelha",
+      "color": "#FF0000"
+    }
+  },
+  {
+    "id": 3,
+    "descricao": "Complete 10 desafios semanais",
+    "qtdAtual": 4,
+    "qtdCompleta": 10,
+    "recompensa": {
+      "tipo": "moedas",
+      "valor": 2000
+    }
+  },
+  {
+    "id": 4,
+    "descricao": "Ganhe 3000 moedas no total",
+    "qtdAtual": 3000,
+    "qtdCompleta": 3000,
+    "recompensa": {
+      "tipo": "cosmetico",
+      "categoria": "fundos",
+      "idItem": 3,
+      "nome": "Fundo Azul",
+      "color": "#3A7BFD"
+    }
+  },
+  {
+    "id": 5,
+    "descricao": "Alcance o nível 15",
+    "qtdAtual": 12,
+    "qtdCompleta": 15,
+    "recompensa": {
+      "tipo": "cosmetico",
+      "categoria": "avatares",
+      "idItem": 2,
+      "nome": "Avatar Ruivo",
+      "img": "/imgs/perfil/boy_red.webp"
+    }
+  },
+  {
+    "id": 6,
+    "descricao": "Realize 20 interações com amigos",
+    "qtdAtual": 8,
+    "qtdCompleta": 20,
+    "recompensa": {
+      "tipo": "moedas",
+      "valor": 500
+    }
+  }
+]

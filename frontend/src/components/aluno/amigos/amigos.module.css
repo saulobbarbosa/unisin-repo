@@ -1,0 +1,61 @@
+.tituloTop{
+    font-size: 3.5rem;
+    color: #fff;
+    margin-top: 5rem;
+}
+
+.divAcoes{
+    width: 68%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.gridAmigos {
+    display: grid;
+    grid-template-columns: 5% minmax(45%, 1fr) 15% 15% 10%;
+    gap: 1rem;
+    align-items: center;
+    width: 70%;
+    margin-top: 2rem;
+    background-color: #fff;
+    border-radius: 2rem 2rem 0 0;
+    padding: 1rem;
+    height: auto;
+    min-height: 55.8vh;
+    font-size: 1.8rem;
+    user-select: none;
+}
+
+.textoTopoTabela{
+    font-weight: bold;
+    color: #295384;
+    cursor: pointer;
+}
+
+.destaqueNM{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13.125rem;
+    height: 2.875rem;
+    border-radius: 1.25rem;
+    background-color: #64B5F6;
+    color: #fff;
+    font-weight: bold;
+}
+.img{
+    width: 3.125rem;
+    border-radius: 100%;
+}
+
+.divAcao{
+    position: relative;
+    text-align: center;
+}
+
+.gridAmigos > div {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

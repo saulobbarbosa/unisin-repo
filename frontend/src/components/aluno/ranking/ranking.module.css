@@ -1,0 +1,97 @@
+.tituloTop{
+    font-size: 3.5rem;
+    color: #fff;
+    margin-top: 5rem;
+    text-align: center;
+    text-shadow: 0 0 15px #00eaff, 0 0 30px rgba(0, 234, 255, 0.4);
+    letter-spacing: 0.2rem;
+}
+
+.divMudaRank1{
+    position: fixed;
+    top: 50vh;
+    right: 27vw;
+}
+.divMudaRank2{
+    position: fixed;
+    top: 50vh;
+    left: 27vw;
+}
+.divMudaRank1, .divMudaRank2 i{
+    text-shadow: 0 0 8px #00eaff;
+    cursor: pointer;
+}
+
+.tituloArea{
+    text-align: center;
+    font-size: 2.5rem;
+    color: #fff;
+    margin-top: 5rem;
+    text-shadow: 0 0 10px #00eaff;
+}
+
+.lista{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 1rem 2rem;
+    background-color: #fff;
+    border: 2px solid #00eaff;
+    border-radius: 1.5rem;
+    margin-top: 0.6rem;
+    box-shadow: 0 0 12px rgba(0, 234, 255, 0.3);
+    font-size: 1.8rem;
+    transition: all 0.3s ease;
+}
+.lista:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 0 20px #00eaff;
+}
+
+/* Medalhas (cores diferentes pros top 3) */
+.lista:nth-child(4) {
+    border-color: gold;
+    box-shadow: 0 0 20px gold;
+}
+.lista:nth-child(5) {
+    border-color: silver;
+    box-shadow: 0 0 20px silver;
+}
+.lista:nth-child(6) {
+    border-color: #cd7f32;
+    box-shadow: 0 0 20px #cd7f32;
+}
+
+/* Número de posição */
+.lista p:first-child {
+    font-weight: bold;
+    color: #295384;
+    width: 3rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+/* Nome do aluno */
+.lista p:nth-child(2) {
+    flex: 1;
+    text-align: left;
+    font-weight: 500;
+}
+
+.destaqueMoedas{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 13.125rem;
+    height: 2.875rem;
+    border-radius: 1.25rem;
+    background-color: #64B5F6;
+    color: #fff;
+    font-weight: bold;
+}
+.img{
+    width: 3.125rem;
+    border-radius: 100%;
+}

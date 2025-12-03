@@ -1,0 +1,68 @@
+services:
+  # Serviço do Backend (Laravel)
+  app:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+      args:
+        user: unisin
+        uid: 1000
+    image: unisin-app
+    container_name: unisin-app
+    restart: unless-stopped
+    working_dir: /var/www
+    volumes:
+      - ./backend:/var/www
+    networks:
+      - unisin-network
+
+  # Serviço do Banco de Dados (MySQL)
+  db:
+    image: mysql:8.0
+    container_name: unisin-db
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${DB_DATABASE}
+      MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+      MYSQL_PASSWORD: ${DB_PASSWORD}
+      MYSQL_USER: ${DB_USERNAME}
+      SERVICE_TAGS: dev
+      SERVICE_NAME: mysql
+    volumes:
+      - ./docker/mysql:/var/lib/mysql
+    networks:
+      - unisin-network
+    command: ["--log_bin_trust_function_creators=1"]
+
+  # Serviço do Servidor Web (Nginx)
+  nginx:
+    image: nginx:alpine
+    container_name: unisin-nginx
+    restart: unless-stopped
+    ports:
+      - 8000:80
+    volumes:
+      - ./backend:/var/www
+      - ./docker/nginx:/etc/nginx/conf.d/
+    networks:
+      - unisin-network
+
+  # Serviço do Frontend (React)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    image: unisin-frontend
+    container_name: unisin-frontend
+    restart: unless-stopped
+    ports:
+      - 3000:3000
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    networks:
+      - unisin-network
+
+networks:
+  unisin-network:
+    driver: bridge

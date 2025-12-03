@@ -1,0 +1,73 @@
+.divConquista{
+    position: fixed;
+    top: 30vh;
+    left: 5rem;
+    width: 18rem;
+    height: 28rem;
+    background-color: #fff;
+    border-radius: 3.125rem;
+    box-shadow: 0 0 7px rgba(255, 255, 255, 0.459);
+}
+.tituloConquista{
+    margin-top: 1rem;
+    text-align: center;
+    color: #366091;
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.trilha{
+    margin-top: 1rem;
+}
+.etapa {
+    width: 8rem;
+    height: 8rem;
+    font-weight: bold;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    box-shadow: 0 0 6px rgba(0,0,0,0.4);
+    transition: all 0.3s;
+    cursor: pointer;
+    user-select: none;
+}
+.etapa:hover{
+    background-color: #1a4577;
+    color: #fff;
+}
+
+/* posições pré-definidas */
+.primeiro{ 
+    background-color: #64B5F6;
+    color: #fff;
+}
+.segundo{
+    background-color: #fff;
+    color: #64B5F6;
+}
+.terceiro{
+    background-color: #1565C0;
+    color: #fff;
+}
+.quarto{
+    background-color: #64B5F6;
+    color: #fff;
+}
+.quinto{
+    background-color: #fff;
+    color: #64B5F6;
+}
+.sexto{
+    background-color: #1565C0;
+    color: #fff;
+}
+.correto{
+    background-color: #4caf50 !important;
+    color: #fff;
+}
+.errado{
+    background-color: #af4c4c !important;
+    color: #fff;
+}

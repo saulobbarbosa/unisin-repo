@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "email": "g@g.c",
+    "senha": "1",
+    "nome": "Guilherme",
+    "nivel": 20,
+    "moedas": 2500,
+    "avatar": "/imgs/perfil/boy_black.webp",
+    "borda": "#FF0000",
+    "fundo": "#000"
+  },
+  {
+    "id": 2,
+    "email": "leo@gui.com",
+    "senha": "1",
+    "nome": "Leo",
+    "nivel": 15,
+    "moedas": 1800,
+    "avatar": "/imgs/perfil/boy_yellow.webp",
+    "borda": "#FF0000",
+    "fundo": "#000"
+  },
+  {
+    "id": 3,
+    "email": "ana@teste.com",
+    "senha": "1",
+    "nome": "Ana Clara",
+    "nivel": 12,
+    "moedas": 1500,
+    "avatar": "/imgs/perfil/girl_red.webp",
+    "borda": "#00FF00",
+    "fundo": "#111"
+  },
+  {
+    "id": 4,
+    "email": "bruno@teste.com",
+    "senha": "1",
+    "nome": "Bruno Souza",
+    "nivel": 18,
+    "moedas": 2200,
+    "avatar": "/imgs/perfil/boy_red.webp",
+    "borda": "#0000FF",
+    "fundo": "#222"
+  },
+  {
+    "id": 5,
+    "email": "camila@teste.com",
+    "senha": "1",
+    "nome": "Camila Ferreira",
+    "nivel": 10,
+    "moedas": 1200,
+    "avatar": "/imgs/perfil/girl_yellow.webp",
+    "borda": "#FFA500",
+    "fundo": "#333"
+  },
+  {
+    "id": 6,
+    "email": "daniel@teste.com",
+    "senha": "1",
+    "nome": "Daniel Lima",
+    "nivel": 16,
+    "moedas": 2000,
+    "avatar": "/imgs/perfil/boy_black.webp",
+    "borda": "#00FFFF",
+    "fundo": "#444"
+  },
+  {
+    "id": 7,
+    "email": "felipe@teste.com",
+    "senha": "1",
+    "nome": "Felipe Andrade",
+    "nivel": 14,
+    "moedas": 1700,
+    "avatar": "/imgs/perfil/boy_red.webp",
+    "borda": "#FF00FF",
+    "fundo": "#555"
+  },
+  {
+    "id": 8,
+    "email": "isabela@teste.com",
+    "senha": "1",
+    "nome": "Isabela Rocha",
+    "nivel": 19,
+    "moedas": 2400,
+    "avatar": "/imgs/perfil/girl_yellow.webp",
+    "borda": "#FFFF00",
+    "fundo": "#666"
+  },
+  {
+    "id": 9,
+    "email": "prof.joao@teste.com",
+    "senha": "123",
+    "nome": "Professor João",
+    "tipo": "professor"
+  },
+  {
+    "id": 10,
+    "email": "escola.lins@teste.com",
+    "senha": "123",
+    "nome": "Escola Estadual de Lins",
+    "tipo": "escola"
+  }
+]

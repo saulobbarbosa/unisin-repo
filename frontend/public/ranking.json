@@ -1,0 +1,12 @@
+{
+  "humanas": [
+    { "id": 1, "nome": "Guilherme Freitas", "moedas": 2500 },
+    { "id": 2, "nome": "Maria Silva", "moedas": 2200 },
+    { "id": 3, "nome": "Lucas Oliveira", "moedas": 2000 }
+  ],
+  "exatas": [
+    { "id": 1, "nome": "João Santos", "moedas": 3000 },
+    { "id": 2, "nome": "Ana Costa", "moedas": 2800 },
+    { "id": 3, "nome": "Pedro Lima", "moedas": 2600 }
+  ]
+}
